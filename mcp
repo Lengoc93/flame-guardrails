@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "npx",
+      "args": ["-y", "@aashari/mcp-server-atlassian-jira"],
+      "env": {
+        "ATLASSIAN_SITE_NAME": "vỉns",
+        "ATLASSIAN_USER_EMAIL": "v.ngocllb3@vinsmartfuture.tech",
+        "ATLASSIAN_API_TOKEN": "your_generated_api_token"
+      }
+    }
+  }
+}
